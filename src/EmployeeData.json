@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "designation": "Software Engineer",
+      "mobile":7788995544,
+      "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZW1wbG95ZWV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "designation": "UI/UX Designer",
+      "mobile":7788995544,
+      "img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZW1wbG95ZWV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "designation": "Project Manager",
+      "mobile":7788995544,
+      "img": "https://plus.unsplash.com/premium_photo-1661297414288-8ed17eb1b3f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGVtcGxveWVlfGVufDB8fDB8fHww"
+    },
+    {
+      "id": 4,
+      "name": "Alice Brown",
+      "designation": "Data Scientist",
+      "mobile":7788995544,
+      "img": "https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.webp?b=1&s=170667a&w=0&k=20&c=XocBdVosckQdKjxF2aKNbSWhK9GkX0JrykqAOU5KnbY="
+    },
+    {
+      "id": 5,
+      "name": "Charlie Wilson",
+      "designation": "Marketing Specialist",
+      "mobile":7788995544,
+      "img": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
+    },
+    {
+      "id": 6,
+      "name": "Emily Davis",
+      "designation": "Financial Analyst",
+      "mobile":7788995544,
+      "img": "https://media.istockphoto.com/id/1484124712/photo/leadership-arms-crossed-and-smile-of-business-woman-in-office-ready-for-goals-ceo-portrait.webp?b=1&s=170667a&w=0&k=20&c=Pv5YgvrLeGknkBXRPDN69OsURh71zwO8ypoEXLqLOHk="
+    },
+    {
+      "id": 7,
+      "name": "Alex Turner",
+      "designation": "HR Manager",
+      "mobile":7788995544,
+      "img": "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 8,
+      "name": "Grace Martinez",
+      "designation": "Customer Support",
+      "mobile":7788995544,
+      "img": "https://images.pexels.com/photos/1181725/pexels-photo-1181725.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 9,
+      "name": "Ethan White",
+      "designation": "Network Administrator",
+      "mobile":7788995544,
+      "img": "https://images.pexels.com/photos/4467687/pexels-photo-4467687.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 10,
+      "name": "Olivia Miller",
+      "designation": "Sales Representative",
+      "mobile":7788995544,
+      "img": "https://images.pexels.com/photos/3779760/pexels-photo-3779760.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 11,
+      "name": "Liam Harris",
+      "designation": "Quality Assurance",
+      "mobile":7788995544,
+      "img":"https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 12,
+      "name": "Ava Turner",
+      "designation": "Graphic Designer",
+      "mobile":7788995544,
+      "img": "https://images.pexels.com/photos/3771089/pexels-photo-3771089.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+  
