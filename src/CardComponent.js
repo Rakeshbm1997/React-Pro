@@ -21,10 +21,10 @@ const CardComponent = ({ data }) => {
 
   return (
     <Container fluid className='card-container'>
-        <Card border="#f7f7f7"  style={{ margin: '1rem', padding: '2rem', maxWidth: '20rem', maxHeight:'20rem' , whiteSpace: 'pre-wrap'  }} className="mb-4 mt-5 " >
+        <Card border="#f7f7f7"  style={{ maxWidth: '20rem', maxHeight:'20rem' , whiteSpace: 'pre-wrap'  }} className="mb-4 mt-5 " >
 
       <div className="text-center"> 
-      <Card.Img  src={img}  className="img-fluid mt-3"  style={{ borderRadius: "50%", maxHeight: "100px", maxWidth: "80%" }}  />
+      <Card.Img  src={img}  className="img-fluid mt-3"  style={{ borderRadius: '50%', maxHeight: '100px', maxWidth: '100px' }}  />
       </div>
     
       
@@ -49,10 +49,10 @@ const CardComponent = ({ data }) => {
     
           
        
-      <Card.Body>
+      <Card.Body className="d-flex flex-column align-items-center justify-content-center">
       
-        <Card.Title className="text-center">{name}</Card.Title>
-        <Card.Subtitle className="mb-2 text-center">{designation}</Card.Subtitle>
+        <Card.Title className="text-center" style={{ fontSize: '1.5rem',marginBottom: '10px' }}>{name}</Card.Title>
+        <Card.Subtitle className="mb-2 text-center" style={{ fontSize: '1rem' }}>{designation}</Card.Subtitle>
         
       </Card.Body>
     </Card>

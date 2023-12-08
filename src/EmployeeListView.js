@@ -5,24 +5,26 @@ import jsonData from './EmployeeData.json'
 
 const EmployeeListView = () => {
   return (
-    <Card className='mt-3'>
+    <Card className='mt-3 d-flex flex-column ' >
         <Row className="col-12">
         <Col>
-      <Card.Header>Employee</Card.Header>
+      <Card.Header style={{ fontSize: '1vw' }}>Employee</Card.Header>
       </Col>
       <Col>
-      <Card.Header>EmpId</Card.Header>
+      <Card.Header style={{ fontSize: '1vw' }}>EmpId</Card.Header>
       </Col>
       <Col>
-      <Card.Header>Employee Name</Card.Header>
+      <Card.Header style={{ fontSize: '1vw' }}>Employee Name</Card.Header>
       </Col>
       <Col>
-      <Card.Header>Designation</Card.Header>
+      <Card.Header style={{ fontSize: '1vw' }}>Designation</Card.Header>
       </Col>
       <Col>
-      <Card.Header>Mobile</Card.Header>
+      <Card.Header style={{ fontSize: '1vw' }}>Mobile</Card.Header>
       </Col>
       </Row>
+
+      
     <ListGroup>
       {jsonData.map((employee,index) => (
         <ListGroup.Item key={index}>
