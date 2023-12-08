@@ -9,7 +9,7 @@ import {Button,Container,Nav,Row,Col} from 'react-bootstrap';
  
 
 
-const Heading=({ handleCardView,handleListView }) =>{
+const Heading=({ toggleHandler,toggleHandler1 }) =>{
   
  
 
@@ -31,11 +31,11 @@ const Heading=({ handleCardView,handleListView }) =>{
 
 
           <Col xs={6} className="d-flex align-items-center justify-content-end mt-4">        
-            <Nav.Link href="/"><FontAwesomeIcon icon={faBars}  size="xl" className=" me-3 border border-2 p-2 " onClick={handleCardView}/></Nav.Link> 
+            <Nav.Link href="/"><FontAwesomeIcon icon={faBars}  size="xl" className=" me-3 border border-2 p-2 " onClick={toggleHandler}/></Nav.Link> 
             
           
             
-          <Nav.Link href="/"><FontAwesomeIcon icon={faTableCells}  size="xl" className="me-3 border border-2 p-2" onClick={handleListView}/> </Nav.Link>  
+          <Nav.Link href="/"><FontAwesomeIcon icon={faTableCells}  size="xl" className="me-3 border border-2 p-2" onClick={toggleHandler1}/> </Nav.Link>  
          
 
 

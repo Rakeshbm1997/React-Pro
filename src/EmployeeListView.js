@@ -5,7 +5,7 @@ import jsonData from './EmployeeData.json'
 
 const EmployeeListView = () => {
   return (
-    <Card>
+    <Card className='mt-3'>
         <Row className="col-12">
         <Col>
       <Card.Header>Employee</Card.Header>

@@ -7,6 +7,7 @@ import EditModalComponent from './EditModalComponent'
 
 
 
+
 const CardComponent = ({ data }) => {
   const [showModal, setShowModal] = useState(false);
 
@@ -20,10 +21,10 @@ const CardComponent = ({ data }) => {
 
   return (
     <Container fluid className='card-container'>
-        <Card border="#f7f7f7" style={{ width: '18rem', height: '15rem', whiteSpace: 'pre-wrap' }} className="mb-4 mt-5" >
+        <Card border="#f7f7f7"  style={{ margin: '1rem', padding: '2rem', maxWidth: '20rem', maxHeight:'20rem' , whiteSpace: 'pre-wrap'  }} className="mb-4 mt-5 " >
 
       <div className="text-center"> 
-      <Card.Img  src={img}  className="img-fluid mt-3"  style={{ borderRadius: "50%", height: "100px", width: "100px"}}  />
+      <Card.Img  src={img}  className="img-fluid mt-3"  style={{ borderRadius: "50%", maxHeight: "100px", maxWidth: "80%" }}  />
       </div>
     
       
